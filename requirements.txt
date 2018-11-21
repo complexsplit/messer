@@ -11,7 +11,7 @@ py==1.4.31
 pyasn1==0.1.9
 pycparser==2.14
 pytest==2.9.2
-requests==2.16.0
+requests==2.20.0
 shellescape==3.4.1
 six==1.10.0
 wsgiref==0.1.2
