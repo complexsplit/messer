@@ -363,7 +363,7 @@ class UploadAWSDataBag(AWSDataBag, DataBag):
         bytes_written = item_key.set_contents_from_string(json.dumps(encrypted_item))
         if not self.config.silent:
             print("Created new data bag item {0}/{1} with key {2} in {3}"
-                    .format(self.name, data_bag_item['id'], self.args.secret_file, self.secrets_bucket_name))
+                  .format(self.name, data_bag_item['id'], self.args.secret_file, self.secrets_bucket_name))
 
         return bytes_written
 
