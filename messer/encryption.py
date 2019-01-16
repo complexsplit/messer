@@ -37,9 +37,9 @@ from cryptography.hazmat.backends import default_backend
 def add_common_cloud_provider_options(cloud_provider):
     cloud_provider.add_argument('key_name', help="The name of the encryption key.")
     cloud_provider.add_argument('-c', '--config',
-                            default=messer.get_default_config(),
-                            type=argparse.FileType('r'),
-                            help="The configuration file to use.")
+                                default=messer.get_default_config(),
+                                type=argparse.FileType('r'),
+                                help="The configuration file to use.")
 
 def options(subparser):
     """
