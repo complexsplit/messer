@@ -17,7 +17,7 @@ __author__ = 'Jed Glazner, Sandeep Srivastav Vaddiparthy, Florian Noeding, Heiko
 
 import argparse
 import messer
-from abstracts import MesserAWSCommand, MesserAzureCommand
+from messer.abstracts import MesserAWSCommand, MesserAzureCommand
 
 def set_common_cloud_provider_options(provider_args):
     provider_args.add_argument('-m', '--master-key', help="The Cloud specific master key name or alias that should be  "
