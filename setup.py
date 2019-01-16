@@ -36,7 +36,7 @@ if __name__ == "__main__":
 setup(
     name=APP_NAME,
     version=APP_VERSION,
-    description="An Amazon/Azure databag replacment for knife.",
+    description="An Amazon/Azure databag replacement for knife.",
     long_description="",
     url="https://github.com/adobe/messer/",
     author=APP_AUTHOR,
